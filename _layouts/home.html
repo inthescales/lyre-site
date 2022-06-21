@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  </head>
+  <body>
+    {% include header.html %}
+    <table class="table">
+      <tr>
+        <td class="table-side">
+	<td>
+	<td class="table-contents">
+          {{ content }}
+        </td>
+        <td class="table-side">
+	  {% include sidebar.html %}
+        </td>
+      <tr>
+    </table>
+  </body>
+</html>
