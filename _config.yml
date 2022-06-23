@@ -1,3 +1,7 @@
 url: "http://lyresdictionary.com"
 baseurl: "/"
 title: "Lyre's Dictionary"
+collections:
+  pages:
+    output: true
+    permalink: /:title/
