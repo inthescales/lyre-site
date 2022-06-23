@@ -6,22 +6,30 @@
 .header {
     text-align: center;
     width: 1000px;
-    margin: 24px auto 8px;
+    margin: 8px auto 8px;
 }
 
 .header #icon {
-    height: 100px;
+    height: 80px;
     border-radius: 50px;
+    margin: 8px 0px 0px;
 }
 
 .header h1 {
+    margin-top: 8px;
     margin-bottom: 8px;
+}
+
+.underline {
+    background-color: gray;
+    height: 1px;
+    margin: auto;
 }
 
 .table {
     margin: 0 auto;
-    width: 1000px;
-    border-spacing: 12px;
+    width: 1200px;
+    border-spacing: 32px 0px;
 }
 
 .table-contents {
@@ -29,6 +37,7 @@
 }
 
 .table-side {
+    vertical-align: top;
     width: 190px;
 }
 
@@ -36,4 +45,18 @@
     border-style: double;
     border-width: 3px;
     padding: 0px 12px 12px;
+    margin: 16px 0px 0px;
+}
+
+.footer {
+    text-align: center;
+    height: 24px;
+}
+
+a {
+    line-height: 1.4;
+}
+
+p {
+    line-height: 1.5;
 }
