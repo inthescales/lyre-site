@@ -1,5 +1,5 @@
 url: "http://lyresdictionary.com"
-baseurl: "/"
+baseurl: "/pages/lyres-dictionary"
 title: "Lyre's Dictionary"
 collections:
   pages:
