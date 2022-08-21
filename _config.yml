@@ -5,3 +5,5 @@ collections:
   pages:
     output: true
     permalink: /:title/
+  blog:
+    permalink: /blog/:title/
