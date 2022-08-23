@@ -1,5 +1,4 @@
 url: "http://lyresdictionary.com"
-baseurl: "/projects/lyres-dictionary"
 title: "Lyre's Dictionary"
 collections:
   pages:

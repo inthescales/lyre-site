@@ -66,3 +66,25 @@ a {
 p {
     line-height: 1.5;
 }
+
+div.excerpt {
+    margin: 24px auto;
+    padding: 0px 8px;
+    width: 300px;
+    border-width: 2px;
+    border-style: outset;
+    display: inherited;
+}
+
+.excerpt p {
+    line-height: 1.6;
+    margin: 8px 0px;
+}
+
+.excerpt span.title {
+    font-weight: bold;
+}
+
+.excerpt span.body {
+    
+}
