@@ -1,5 +1,6 @@
-url: "http://lyresdictionary.com"
 title: "Lyre's Dictionary"
+description: "Lyre's Dictionary development blog."
+url: "http://lyresdictionary.com"
 collections:
   pages:
     output: true
