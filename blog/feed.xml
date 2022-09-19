@@ -13,14 +13,14 @@ layout: null
         <item>
             <title>{{ post.title }}</title>
             <link>
-                { site.url }}{{ site.baseurl }}{{ post.url }}
+                {{ site.url }}{{ site.baseurl }}{{ post.url }}
             </link>
             <description>
                 {{ post.content | escape | truncate: '400' }}
             </description>
             <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
             <guid>
-                { site.url }}{{ site.baseurl }}{{ post.url }}
+                {{ site.url }}{{ site.baseurl }}{{ post.url }}
             </guid>
         </item>
         {% endfor %}
