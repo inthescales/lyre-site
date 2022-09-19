@@ -6,21 +6,21 @@ layout: null
 <rss version="2.0">
     <channel>
         <title>{{ site.title }}</title>
-        <link>{{ site.url }}/{{ site.baseurl }}</link>
+        <link>{{ site.url }}{{ site.baseurl }}</link>
         <description>{{ site.description }}</description>
         <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
         {% for post in site.posts %}
         <item>
             <title>{{ post.title }}</title>
             <link>
-                {{ post.url | prepend: site.url }}
+                { site.url }}{{ site.baseurl }}{{ post.url }}
             </link>
             <description>
                 {{ post.content | escape | truncate: '400' }}
             </description>
             <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
             <guid>
-                {{ post.url | prepend: site.url }}
+                { site.url }}{{ site.baseurl }}{{ post.url }}
             </guid>
         </item>
         {% endfor %}
