@@ -9,6 +9,11 @@ layout: null
         <link>{{ site.url }}{{ site.baseurl }}</link>
         <description>{{ site.description }}</description>
         <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+        <image>
+            <url>{{ site.url }}{{ site.baseurl }}/assets/images/favicon.ico</url>
+            <title>example image</title>
+            <link>http://example</link>
+        </image>
         {% for post in site.posts %}
         <item>
             <title>{{ post.title }}</title>
