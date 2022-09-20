@@ -11,8 +11,8 @@ layout: null
         <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
         <image>
             <url>{{ site.url }}{{ site.baseurl }}/assets/images/favicon.ico</url>
-            <title>example image</title>
-            <link>http://example</link>
+            <title>Lyre's Dictionary</title>
+            <link>{{ site.url }}{{ site.baseurl }}</link>
         </image>
         {% for post in site.posts %}
         <item>
