@@ -16,11 +16,11 @@ You can think of this as an exploration of the possibility space of English etym
 
 The question that follows is, why do this?
 
-One why is just that I love etymology. Lyre's Dictionary came to be only because of my deep love for prying into the histories of the words we use every day, and maybe more so the ones that people hardly use at all.
+One why is just that I love etymology. Lyre's Dictionary came to be only because of my deep love for prying into the histories of the words we use every day, and maybe especially the weird ones that people hardly use at all.
 
 And the more I've gotten to know words and the parts that make them up, the more questions come up like, why do we have the words 'valid' and 'valor', and 'liquid' and 'liquor', and yet we have 'morbid' but not 'morbor'? If you can give someone a 'come-hither' look, can you give someone a 'go-hence' look too? Every new word-part learned becomes a new toy to play with.
 
-So etymology is a game. And it's a game with rules. Actual English may not always follow the rules, but to me the fun is in playing within them. It's easy to put some syllables together and assign them a meaning, it's more challenging to find the existing patterns and parts to combine to get the meaning you want.
+So etymology is a game. And it's a game with rules. Well, actual English may not always follow the rules, but to me the fun is in playing within them. It's easy to put some syllables together and assign them a meaning, it's more challenging to find the existing patterns and parts to combine to get the meaning you want.
 
 So another why is just the system-pleasure in collecting the pieces, learning the rules, and trying to teach a computer to play with them. And the challenge of doing so — it's not always possible or straightforward to draw a straight line that connects all the actual words from a certain root, or in a certain pattern-family. But over time new patterns reveal themselves the more you investigate.
 
