@@ -5,7 +5,7 @@ excerpt: "On the choices that went into assembling the corpus of data for Lyre's
 tags: how
 ---
 
-In [the last post](www.lyresdictionary.com/blog/2023/02/19/content-decisions.html), I talked about how Lyre's Dictionary works programmatically, operating on data objects called morphs, and combining them to make words. Here, I want to go into more detail about how I make morphs, and the decisions and tradeoffs that are necessary in this.
+In [the last post](http://www.inthescales.com/projects/lyres-dictionary/blog/2022/12/20/how-does-it-work.html), I talked about how Lyre's Dictionary works programmatically, operating on data objects called morphs, and combining them to make words. Here, I want to go into more detail about how I make morphs, and the decisions and tradeoffs that are necessary in this.
 
 One of my guiding desires for Lyre's Dictionary is that, in its ultimate ideal, it should be able to produce every actual English word, as well as the much greater number of possible words outside and between those, making no distinction between the two.
 
