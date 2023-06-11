@@ -19,7 +19,7 @@ In the previous post, I alluded to the fact that the way Lyre's Dictionary makes
 
 ### Being selective
 
-This raises a question: which elements from these languages should be included in the corpus? While English borrows many roots from Latin and Greek, it doesn't use all of them. Only some portion of them made it into English. The choice is: should we add roots from ancestor languages to the corpus unconditionally? Or should we only take some and not others?
+When we look to English and its ancestors to build our corpus, a question arises: which elements from these languages should be included? While English borrows many roots from Latin and Greek, it doesn't use all of them. Only some portion of them made it into English. The choice is: should we add roots from ancestor languages to the corpus unconditionally? Or should we only take some and not others?
 
 I think there are advantages to both, and the choice will lend a distinct flavor to the output of the program. Including all morphs greatly expands the possible output of the program, with more material for making more different combinations. This increases the novelty and variability of the results. Alternatively, restricting the selection brings the output closer in line with actual English.
 
@@ -33,7 +33,7 @@ While the idea of historical simulation strongly influences my approach to this 
 
 Any notion of simulation would have to consider what we are looking at to be less a set of rules and more several, overlapping sets of rules with elements passing more or less freely between them. But while a more complex simulation might be able to handle all these cases, for now it isn't possible.
 
-As a result, the current catalog of morphs to some extent straddles time — it includes both archaic meanings and modern ones, modernizes some spellings, and in some cases crosses the boundaries of language (such as including elements borrowed from Greek into Latin in both lists). It includes on even footing elements used very widely today, like the '-phobia' suffix, and those with only a few instances, like '-rrhea' (as in 'logorrhea'). This expands the catalog of morphs beyond what I would be able to represent with a strictly simulationist approach, and allows me to take inspiration from modern formations.
+Instead, the current catalog of morphs to some extent straddles time — it includes both archaic meanings and modern ones, modernizes some spellings, and in some cases crosses the boundaries of language (such as including elements borrowed from Greek into Latin in both lists). It includes on even footing elements used very widely today, like the '-phobia' suffix, and those with only a few instances, like '-rrhea' (as in 'logorrhea'). This expands the catalog of morphs beyond what I would be able to represent with a strictly simulationist approach, and allows me to take inspiration from modern formations.
 
 ## The making of a morph
 
