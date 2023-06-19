@@ -57,16 +57,4 @@ This one requires a paid subscription to use.
     </tr>
 </table>
 
-## Wiktionary
-
-I haven't used [Wiktionary](http://www.wiktionary.org) much so far, but I'm interested in the information it includes on how words' pronunciations and spellings have changed in English over time, which has been useful for some explorations relating to historical sound change.
-
-<table class="img-table">
-    <tr>
-        <td>
-            <a href="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/wiktionary_1.png"><img src="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/wiktionary_1.png" alt="Screenshot of wiktionary's entry for the English word 'worm'"></a>
-        </td>
-    </tr>
-</table>
-
 – Robin, Summer 2023
