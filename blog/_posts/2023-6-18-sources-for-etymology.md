@@ -22,10 +22,10 @@ This one requires a paid subscription to use.
 <table class="img-table">
     <tr>
         <td>
-            <a href="/assets/images/posts/2023-6-18-sources-for-etymology/oed_1.png"><img src="/assets/images/posts/2023-6-18-sources-for-etymology/oed_1.png" alt="Screenshot of the Oxford English Dictionary's entry for the word 'orchideous'. It includes pronunciation, alternate forms, etymology, a definition, and a few example usages."></a>
+            <a href="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/oed_1.png"><img src="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/oed_1.png" alt="Screenshot of the Oxford English Dictionary's entry for the word 'orchideous'. It includes pronunciation, alternate forms, etymology, a definition, and a few example usages."></a>
         </td>
         <td>
-            <a href="/assets/images/posts/2023-6-18-sources-for-etymology/oed_2.png"><img src="/assets/images/posts/2023-6-18-sources-for-etymology/oed_2.png" alt="Screenshot of the Oxford English Dictionary web site's advanced search page, with fields including 'subject', 'language of origin', 'region', 'date of entry', and others"></a>
+            <a href="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/oed_2.png"><img src="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/oed_2.png" alt="Screenshot of the Oxford English Dictionary web site's advanced search page, with fields including 'subject', 'language of origin', 'region', 'date of entry', and others"></a>
         </td>
     </tr>
 </table>
@@ -37,7 +37,7 @@ This one requires a paid subscription to use.
 <table class="img-table">
     <tr>
         <td>
-            <a href="/assets/images/posts/2023-6-18-sources-for-etymology/etymonline_1.png"><img src="/assets/images/posts/2023-6-18-sources-for-etymology/etymonline_1.png" alt="Screenshot for the Online Eymological Dictionary's entry for the word 'saxifrage'"></a>
+            <a href="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/etymonline_1.png"><img src="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/etymonline_1.png" alt="Screenshot for the Online Eymological Dictionary's entry for the word 'saxifrage'"></a>
         </td>
     </tr>
 </table>
@@ -49,10 +49,10 @@ This one requires a paid subscription to use.
 <table class="img-table">
     <tr>
         <td>
-            <a href="/assets/images/posts/2023-6-18-sources-for-etymology/latdict_1.png"><img src="/assets/images/posts/2023-6-18-sources-for-etymology/latdict_1.png" alt="Screenshot of Latdict's entry for the word 'ardere'"></a>
+            <a href="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/latdict_1.png"><img src="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/latdict_1.png" alt="Screenshot of Latdict's entry for the word 'ardere'"></a>
         </td>
                 <td>
-            <a href="/assets/images/posts/2023-6-18-sources-for-etymology/latdict_2.png"><img src="/assets/images/posts/2023-6-18-sources-for-etymology/latdict_2.png" alt="Screenshot of Latdict's entry for the word 'os/ossis"></a>
+            <a href="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/latdict_2.png"><img src="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/latdict_2.png" alt="Screenshot of Latdict's entry for the word 'os/ossis"></a>
         </td>
     </tr>
 </table>
@@ -64,7 +64,7 @@ I haven't used [Wiktionary](http://www.wiktionary.org) much so far, but I'm inte
 <table class="img-table">
     <tr>
         <td>
-            <a href="/assets/images/posts/2023-6-18-sources-for-etymology/wiktionary_1.png"><img src="/assets/images/posts/2023-6-18-sources-for-etymology/wiktionary_1.png" alt="Screenshot of wiktionary's entry for the English word 'worm'"></a>
+            <a href="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/wiktionary_1.png"><img src="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/wiktionary_1.png" alt="Screenshot of wiktionary's entry for the English word 'worm'"></a>
         </td>
     </tr>
 </table>
