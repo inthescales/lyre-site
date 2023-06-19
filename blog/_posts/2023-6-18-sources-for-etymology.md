@@ -17,7 +17,7 @@ But the extra search tools allow the OED to be used to answer other kinds of que
 
 It's also possible to search for words using wildcards, to find words that contain a given sequence of letters. This can be used to answer questions about how commonly certain suffixes can appear together (for example, how many words end in '-ical'?), or to narrow down to cases with particular spellings (which words, like 'piety', take the '-ety' form rather than the more common '-ity' form?). Any of these can be further narrowed down by restricting the search to only words from a particular origin (such as all words ending in '-bre' that come from French).
 
-This one requires a paid subscription to use unfortunately.
+This one requires a paid subscription to use.
 
 <table class="img-table">
     <tr>
@@ -30,9 +30,9 @@ This one requires a paid subscription to use unfortunately.
     </tr>
 </table>
 
-## The Online Etymological Dictionary
+## Online Etymology Dictionary
 
-[Etymonline](http://www.etymonline.com) is free and easy to use, and contains similarly detailed etymologies, though it lacks some of the more complex features. I often use it for quick searches to check the etymology of a particular word or affix, or to get a second opinion on the OED. They largely tend to agree with one another, but occasionally Etymonline will have alternate explanations beyond what's in the OED, or asides that suggest new possibilities.
+[Online Etymology Dictionary or Etymonline](http://www.etymonline.com) is free and easy to use, and contains similarly detailed etymologies, though it lacks some of the more complex features. I often use it for quick searches to check the etymology of a particular word or affix, or to get a second opinion on the OED. They largely tend to agree with one another, but occasionally Etymonline will have alternate explanations beyond what's in the OED, or asides that suggest new possibilities.
 
 <table class="img-table">
     <tr>
