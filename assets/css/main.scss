@@ -85,6 +85,24 @@ div.excerpt {
     display: inherited;
 }
 
+.table-contents table, td, tr, th {
+    border: none;
+    border-collapse: collapse;
+}
+
+.table-contents tr:nth-child(even) {
+    background-color: #f2f2f2;    
+}
+
+.table-contents td {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.table-contents th {
+    padding-bottom: 8px;
+}
+
 .excerpt p {
     line-height: 1.6;
     margin: 8px 0px;
