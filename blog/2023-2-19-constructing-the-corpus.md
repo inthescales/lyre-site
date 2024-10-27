@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Constructing the Corpus"
-excerpt: "On the choices that went into assembling the corpus of data for Lyre's Dictionary."
+description: "On the choices that went into assembling the corpus of data for Lyre's Dictionary."
 tags: how
 ---
 
@@ -61,9 +61,11 @@ I may reverse this decision later in the interest of letting the program play ou
 
 Another type of situation requiring decision is that of ambiguity. For instance, in some cases, a word's different actual forms leave uncertainty about how to handle about cases that aren't attested. For example, the Latin verb 'flectere', to bend, combined with different prefixes gives us several modern English words.
 
-    flex            deflect
-    circumflex      inflect
-    reflex          reflect
+<table style="margin-left: 32px; border-spacing: 16px 0; font-size: 20; text-align: right;">
+<tr><td>flex</td><td>deflect</td></tr>
+<tr><td>circumflex</td><td>inflect</td></tr>
+<tr><td>reflex</td><td>reflect</td></tr>
+</table>
 
 We see different endings in different cases. It's easy enough to use morph exceptions to say that 'circum-' should be followed by 'flex' and 'de-' by 'flect'. But what about 're-', which is seen with both? Or what if we have a different, unattested previx, like 'ob-'? So far I haven't thought of any way to decisively handle cases like this. Currently I tend to pick whichever one is most common, or choose one at random if there's no clear winner. In some cases, I have the program choose randomly for each new word.
 

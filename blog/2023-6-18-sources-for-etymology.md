@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sources for Etymology"
-excerpt: "On sources of etymological information used to build the Lyre's Dictionary corpus."
+description: "On sources of etymological information used to build the Lyre's Dictionary corpus."
 tags: how
 ---
 
@@ -19,13 +19,13 @@ It's also possible to search for words using wildcards, to find words that conta
 
 This one requires a paid subscription to use.
 
-<table class="img-table">
+<table class="article-image">
     <tr>
         <td>
-            <a href="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/oed_1.png"><img src="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/oed_1.png" alt="Screenshot of the Oxford English Dictionary's entry for the word 'orchideous'. It includes pronunciation, alternate forms, etymology, a definition, and a few example usages."></a>
+            <a href="/assets/images/posts/2023-6-18-sources-for-etymology/oed_1.png"><img src="/assets/images/posts/2023-6-18-sources-for-etymology/oed_1.png" alt="Screenshot of the Oxford English Dictionary's entry for the word 'orchideous'. It includes pronunciation, alternate forms, etymology, a definition, and a few example usages."></a>
         </td>
         <td>
-            <a href="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/oed_2.png"><img src="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/oed_2.png" alt="Screenshot of the Oxford English Dictionary web site's advanced search page, with fields including 'subject', 'language of origin', 'region', 'date of entry', and others"></a>
+            <a href="/assets/images/posts/2023-6-18-sources-for-etymology/oed_2.png"><img src="/assets/images/posts/2023-6-18-sources-for-etymology/oed_2.png" alt="Screenshot of the Oxford English Dictionary web site's advanced search page, with fields including 'subject', 'language of origin', 'region', 'date of entry', and others"></a>
         </td>
     </tr>
 </table>
@@ -34,10 +34,10 @@ This one requires a paid subscription to use.
 
 [Online Etymology Dictionary or Etymonline](http://www.etymonline.com) is free and easy to use, and contains similarly detailed etymologies, though it lacks some of the more complex features. I often use it for quick searches to check the etymology of a particular word or affix, or to get a second opinion on the OED. They largely tend to agree with one another, but occasionally Etymonline will have alternate explanations beyond what's in the OED, or asides that suggest new possibilities.
 
-<table class="img-table">
+<table class="article-image">
     <tr>
         <td>
-            <a href="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/etymonline_1.png"><img src="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/etymonline_1.png" alt="Screenshot for the Online Eymological Dictionary's entry for the word 'saxifrage'"></a>
+            <a href="/assets/images/posts/2023-6-18-sources-for-etymology/etymonline_1.png"><img src="/assets/images/posts/2023-6-18-sources-for-etymology/etymonline_1.png" alt="Screenshot for the Online Eymological Dictionary's entry for the word 'saxifrage'"></a>
         </td>
     </tr>
 </table>
@@ -46,13 +46,13 @@ This one requires a paid subscription to use.
 
 [Latdict](http://www.latin-dictionary.net), naturally, is only relevant to roots from Latin, but it's provided some necessary details, such as different forms and grammatical information for Latin words that have a bearing on their appearance or how they combine with other elements in English. I've also used it in some cases to check words' Latin meanings when I needed guidance on how to gloss morphs.
 
-<table class="img-table">
+<table class="article-image">
     <tr>
         <td>
-            <a href="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/latdict_1.png"><img src="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/latdict_1.png" alt="Screenshot of Latdict's entry for the word 'ardere'"></a>
+            <a href="/assets/images/posts/2023-6-18-sources-for-etymology/latdict_1.png"><img src="/assets/images/posts/2023-6-18-sources-for-etymology/latdict_1.png" alt="Screenshot of Latdict's entry for the word 'ardere'"></a>
         </td>
                 <td>
-            <a href="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/latdict_2.png"><img src="{{ site.baseurl }}/assets/images/posts/2023-6-18-sources-for-etymology/latdict_2.png" alt="Screenshot of Latdict's entry for the word 'os/ossis"></a>
+            <a href="/assets/images/posts/2023-6-18-sources-for-etymology/latdict_2.png"><img src="/assets/images/posts/2023-6-18-sources-for-etymology/latdict_2.png" alt="Screenshot of Latdict's entry for the word 'os/ossis"></a>
         </td>
     </tr>
 </table>

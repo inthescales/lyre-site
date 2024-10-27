@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Old English Update"
-excerpt: "Feeds now include words with Old English roots"
+description: "Feeds now include words with Old English roots"
 tags: what
 ---
 

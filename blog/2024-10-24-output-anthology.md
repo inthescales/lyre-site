@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Output Anthology"
-excerpt: "Lyre's Dictionary will be included in an upcoming anthology book."
+description: "Lyre's Dictionary will be included in an upcoming anthology book."
 ---
 
 Lyre's Dictionary is going to be included in an upcoming book, <a href="https://mitpress.mit.edu/9780262549813/output/"><i>Output: An Anthology of Computer-Generated Text, 1953-2023</i></a>, edited by Lillian-Yvonne Bertram and Nick Montfort.

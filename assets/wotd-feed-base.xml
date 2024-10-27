@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+		<title>Lyre's Dictionary Word of the Day</title>
+		<link>http://www.lyresdictionary.com</link>
+		<description>Selections from the Lyre's Dictionary word feeds</description>
+
+		<item>
+			<title>bibible</title>
+			<description><![CDATA[<b>bibible</b> &#183; <i>adjective</i><br>able to be drunk]]></description>
+			<pubDate>Sun, 27 Oct 2024 13:47:08 -0000</pubDate>
+		</item>
+		<item>
+			<title>gymnasis</title>
+			<description><![CDATA[<b>gymnasis</b> &#183; <i>noun</i><br>the act or state of training]]></description>
+			<pubDate>Sun, 27 Oct 2024 13:47:08 -0000</pubDate>
+		</item>
+		<item>
+			<title>smeeker</title>
+			<description><![CDATA[<b>smeeker</b> &#183; <i>noun</i><br>one who fumigates]]></description>
+			<pubDate>Sun, 27 Oct 2024 13:47:08 -0000</pubDate>
+		</item>
+		<item>
+			<title>futurarium</title>
+			<description><![CDATA[<b>futurarium</b> &#183; <i>noun</i><br>a place for the future]]></description>
+			<pubDate>Sun, 27 Oct 2024 13:47:08 -0000</pubDate>
+		</item>
+		<item>
+			<title>aristophile</title>
+			<description><![CDATA[<b>aristophile</b> &#183; <i>noun</i><br>one who has a love of the best things]]></description>
+			<pubDate>Sun, 27 Oct 2024 13:47:08 -0000</pubDate>
+		</item>
+		<item>
+			<title>kimen</title>
+			<description><![CDATA[<b>kimen</b> &#183; <i>verb</i><br>to make fine, beautiful]]></description>
+			<pubDate>Sun, 27 Oct 2024 13:47:08 -0000</pubDate>
+		</item>
+		<item>
+			<title>rephrame</title>
+			<description><![CDATA[<b>rephrame</b> &#183; <i>noun</i><br>that which is told again]]></description>
+			<pubDate>Sun, 27 Oct 2024 13:47:08 -0000</pubDate>
+		</item>
+	</channel>
+</rss>

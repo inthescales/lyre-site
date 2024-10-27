@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How does it work?"
-excerpt: "A brief explanation of how Lyre's Dictionary works, and how that determines the kinds of words it makes."
+description: "A brief explanation of how Lyre's Dictionary works, and how that determines the kinds of words it makes."
 tags: how
 ---
 
@@ -23,7 +23,8 @@ Morphs are the basic material that Lyre's Dictionary uses to create words. The p
         "type": "noun",
         "declension": 3,
         "gloss": "flower",
-        "tags": ["count", "concrete", "living", "bodypart", "bodypart-plant"],
+        "tags": ["count", "concrete", "living", "bodypart",
+        "bodypart-plant"],
         "origin": "latin"
     }
 

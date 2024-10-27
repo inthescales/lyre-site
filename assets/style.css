@@ -1,0 +1,156 @@
+body {
+	background-color: ebfaff;
+	background-image: radial-gradient(circle at 1px 1px, #516ad4 1px, transparent 0);
+	background-size: 16px 16px;
+	color: 031560;
+	font-size: 18;
+}
+
+a {
+	color: 0828b0;
+}
+
+code {
+	font-size: 16;
+	white-space : pre-wrap;
+}
+
+/* Header Elements */
+
+.header {
+    width: 666px;
+    margin: 48px auto 12px;
+    padding: 12px 24px;
+    text-align: center;
+	font-size: 20;
+	background-color: bdeaf6;
+	border-color: 516ad4;
+	border-width: 1;
+	border-style: solid;
+}
+
+.header #icon {
+	width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.word-panel {
+	height: 100%;
+	display: inline-block;
+	background-color: bdeaf6;
+	border-color: 516ad4;
+	border-width: 1;
+	border-style: solid;
+}
+
+.word-panel-content {
+	margin: auto;
+	padding: 12px 24px;
+	line-height: 133%;
+}
+
+.word-panel-title {
+	margin: 0px 0px 4px; 
+	padding: 0px;
+	font-weight: bold; 
+	text-align: center; 
+}
+
+/* Page Frame */
+
+.page {
+	width: 666px;
+	display: block;
+	margin: 12px auto 48px;
+	padding: 12px 24px;
+	background-color: bdeaf6;
+	border-color: 516ad4;
+	border-width: 1;
+	border-style: solid;
+	line-height: 133%;
+}
+
+/* Blog Index Page */
+
+a.blog-rss {
+	font-size: 20;
+	line-height: 100%;
+}
+
+ul.blog-index {
+	list-style-type: none;
+	margin: 0 0 12px;
+	padding: 0;
+}
+
+ul.blog-index li {
+	line-height: 160%;
+}
+
+ul.blog-index li a {
+	font-size: 20;
+	font-weight: bold;
+}
+
+.blog-index-divider {
+	margin: 24px auto;
+	height: 1px;
+	width: 100%;
+	background-color: 031560;
+	display: block;
+}
+
+/* Blog Article Elements */
+
+table.article-banded {
+	width: 100%;
+	margin: auto;
+	border-style: none;
+    border-collapse: collapse;
+}
+
+table.article-banded tr:nth-child(odd) {
+	background-color: d2f2fc;
+}
+
+table.article-image {
+    border-spacing: 16px;
+}
+
+table.article-image img {
+    max-width: 100%;
+    max-height: 200px;
+}
+
+
+/* Excerpts */
+
+div.excerpt {
+    margin: 24px auto;
+    padding: 0px 16px;
+    width: 300px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: 031560;
+    display: inherited;
+}
+
+.excerpt p {
+    line-height: 1.6;
+    margin: 8px 0px;
+}
+
+.excerpt span.title {
+    font-weight: bold;
+}
+
+/* Misc. Page Elements */
+
+.divider {
+	margin: 24px auto;
+	height: 1px;
+	width: 100%;
+	background-color: 031560;
+	display: block;
+}

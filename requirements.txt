@@ -1,0 +1,2 @@
+markdown==3.7
+mastodon.py==1.5.1

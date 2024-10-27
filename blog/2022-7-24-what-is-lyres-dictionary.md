@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What and why?"
-excerpt: "Answering what is Lyre's Dictionary, and why did I create it?"
+description: "Answering what is Lyre's Dictionary, and why did I create it?"
 tags: what why
 ---
 

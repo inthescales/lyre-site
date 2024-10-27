@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Future Work"
-excerpt: "On possible future additions to Lyre's Dictionary."
+description: "On possible future additions to Lyre's Dictionary."
 tags: how
 ---
 

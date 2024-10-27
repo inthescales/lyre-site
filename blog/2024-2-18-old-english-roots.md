@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Old English Roots"
-excerpt: "Showing some ongoing work on generating words from Old English roots"
+description: "Showing some ongoing work on generating words from Old English roots"
 tags: what
 ---
 
@@ -21,7 +21,7 @@ Old English refers to the earliest period of the English language, as it was spo
 
 As an example, consider these first few passages of the Lord's Prayer as it was written in Old English (you can hear it spoken [here](https://upload.wikimedia.org/wikipedia/commons/2/23/Faederureaudio2.ogg)) with its modern form:
 
-<table style="width: 100%; margin: auto;">
+<table class="article-banded">
 <tr><td><i>Fæder ūre þū þe eart on heofonum,</i></td><td>Our Father, who art in heaven,</td></tr>
 <tr><td><i>Sīe þīn nama ġehālgod.</i></td><td>Hallowed be thy name.</td></tr>
 <tr><td><i>Tōbecume þīn rīċe,</i></td><td>Thy kingdom come,</td></tr>
@@ -37,7 +37,7 @@ changes that transformed the earlier forms of the words into the later ones. And
 
 This table shows some output from the new code that I've been writing. It takes in the Old English words on the left, and produces their modern forms on the right:
 
-<table style="width: 100%; margin: auto;">
+<table class="article-banded">
 <tr><th>OE written</th><th>OE sounds</th><th>ME sounds</th><th>Modern form</th></tr>
 <tr><td>bāt</td><td>/baːt/</td><td>/bɔːt/</td><td>boat</td></tr>
 <tr><td>heofon</td><td>/xeofon/</td><td>/xɛːvən/</td><td>heaven</td></tr>
@@ -66,7 +66,7 @@ As the table shows, this procedure works pretty well. It's able to produce the c
 
 However, this table hides some of the complexity. These next tables show some of the ambiguities and uncertainties in this process:
 
-<table style="width: 100%; margin: auto;">
+<table class="article-banded">
 <tr><th>OE written</th><th>OE sounds</th><th>ME sounds</th><th>Modern form</th></tr>
 <tr><td>bāt</td><td>/baːt/</td><td>/bɔːt/</td><td>bote <span style="color:red;">(boat)</span></td></tr>
 <tr><td>māra</td><td>/maːra/</td><td>/mɔːr/</td><td>moar <span style="color:red;">(more)</span></td></tr>
@@ -78,7 +78,7 @@ Like before, the input to the program is on the left, and the output is on the r
 
 Pronunciations can also diverge during historical change:
 
-<table style="width: 100%; margin: auto;">
+<table class="article-banded">
 <tr><th>OE written</th><th>OE sounds</th><th>ME sounds</th><th>Modern form</th></tr>
 <tr><td>clyċċan</td><td>/klytʃtʃan/</td><td>/klitʃ/</td><td>clitch <span style="color:red;">(clutch)</span></td></tr>
 <tr><td>hȳdan</td><td>/xyːdan/</td><td>/xuːd/</td><td>houd <span style="color:red;">(hide)</span></td></tr>
@@ -90,7 +90,7 @@ Cases like these occur because the historical changes and spelling conventions a
 
 And there are some cases I can't explain at all. Either my system doesn't account for some historical processes, or these words simply changed unpredictably:
 
-<table style="width: 100%; margin: auto;">
+<table class="article-banded">
 <tr><th>OE written</th><th>OE sounds</th><th>ME sounds</th><th>Modern form</th></tr>
 <tr><td>camb</td><td>/kamb/</td><td>/kamb/</td><td>camb <span style="color:red;">(comb)</span></td></tr>
 <tr><td>ċīcen</td><td>/tʃiːken/</td><td>/tʃiːkən/</td><td>chiken <span style="color:red;">(chicken)</span></td></tr>
@@ -102,7 +102,7 @@ While I may discover more historical rules that explain some of these difference
 
 So, there is necessarily some ambiguity in this process, and one Old English form may have multiple plausible modern forms. But overall, the program does seem to generally produce plausible output. And once we have this system, we can do something very interesting with it — we can take words that fell out of the language along the way, and see what they might look like if they still existed today:
 
-<table style="width: 100%; margin: auto;">
+<table class="article-banded">
 <tr><th>OE written</th><th>OE sounds</th><th>ME sounds</th><th>Modern form</th></tr>
 <tr><td>drēfan</td><td>/dreːfan/</td><td>/dreːv/</td><td>dreeve</td></tr>
 <tr><td>friþ</td><td>/friθ/</td><td>/friθ/</td><td>frith</td></tr>

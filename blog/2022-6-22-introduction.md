@@ -1,7 +1,6 @@
 ---
-layout: post
 title: "Introduction"
-excerpt: "A brief introduction to this blog."
+description: "A brief introduction to this blog."
 ---
 
 I've done a lot of work on Lyre's Dictionary over the last few years, but I've expressed
