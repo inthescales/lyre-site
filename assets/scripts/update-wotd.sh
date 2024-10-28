@@ -1,4 +1,4 @@
 #!/bin/bash
 
-source env/bin/activate
-python3 assets/scripts/wotd.py .
+source $1/env/bin/activate
+python3 $1/assets/scripts/wotd.py .
