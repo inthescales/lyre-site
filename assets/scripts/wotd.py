@@ -84,12 +84,7 @@ def format_wotd(wotd):
 	return f"<b>{form}</b> &#183; <i>{type}</i><br>{gloss}"
 
 def update_site(root_path, wotd):
-	print("> UPDATING SITE")
-	page_files = [root_path + file for file in os.listdir(root_path) if file.endswith(".html")]
-	post_files = [root_path + "blog/" + file for file in os.listdir(root_path + "blog/") if file.endswith(".html")]
-	files = page_files + post_files
-
-	for file in files:
+	def process_file(file):
 		with open(file, encoding='utf-8') as file_data:
 			original_content = file_data.read()
 			new_content = re.sub(f"{separator_head}(\\s*).*(\\s*){separator_tail}", f"{separator_head}\\1{format_wotd(wotd)}\\2{separator_tail}", original_content, flags=re.MULTILINE)
@@ -98,6 +93,21 @@ def update_site(root_path, wotd):
 			f = open(file, "w")
 			f.write(new_content)
 			f.close()
+
+	def update_dir(path):
+		if path.endswith("/"):
+			path = path[:-1]
+
+		files = [path + "/" + file for file in os.listdir(path)]
+
+		for file in files:
+			if os.path.isdir(file):
+				update_dir(file)
+			elif file.endswith(".html"):
+				process_file(file)
+
+	print("> UPDATING SITE")
+	update_dir(root_path)
 
 # Generate RSS ===============================
 
