@@ -95,9 +95,6 @@ def update_site(root_path, wotd):
 			f.close()
 
 	def update_dir(path):
-		if path.endswith("/"):
-			path = path[:-1]
-
 		files = [path + "/" + file for file in os.listdir(path)]
 
 		for file in files:
@@ -169,7 +166,7 @@ def make_base_wotd_rss(root_path):
 
 def update_wotd_rss(root_path, wotd):
 	print("> Updating RSS")
-	wotd_path = root_path + "wotd-feed.xml"
+	wotd_path = root_path + "/wotd-feed.xml"
 
 	with open(wotd_path) as wotd_data:
 		wotd_string = wotd_data.read()
@@ -208,6 +205,10 @@ if __name__ == '__main__' and len(sys.argv) > 0:
 			mode = "base"
 		elif opt in ["-p", "--path"]:
 			root_path = arg
+
+# Clean path
+if root_path.endswith("/"):
+	root_path = root_path[:-1]
 
 # Update the WOTD
 if mode == "update":
