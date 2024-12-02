@@ -4,7 +4,7 @@ import random
 import re
 import sys
 
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from email import utils as email_utils
 
 from mastodon import Mastodon
@@ -27,7 +27,7 @@ def fetch_posts(days):
 	posts = sorted(posts, key=lambda x: x["created_at"])
 
 	today = date.today()
-	target_date = today.replace(day=today.day - days)
+	target_date = today - datetime.timedelta(days=days)
 
 	return [post for post in posts if post["created_at"].date() == target_date]
 
