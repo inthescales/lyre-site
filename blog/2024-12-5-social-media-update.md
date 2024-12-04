@@ -10,6 +10,6 @@ First, I've created [a bot account on Bluesky](https://bsky.app/profile/lyresdic
 
 Second, due to the shutdown of botsin.space, the Mastodon instance that the Lyre's Dictionary bot had been running on, I've had to migrate the account. It is now running at [@lyresdictionary@mastodon.social](https://mastodon.social/@lyresdictionary).
 
-I give my gratitude to [Colin "Muffinista" Mitchell](https://muffinlabs.com/) for running the botsin.space server for so long.
+I give my gratitude to Colin "Muffinista" Mitchell for running the botsin.space server for so long.
 
 – Robin, December 2024
