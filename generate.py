@@ -10,8 +10,12 @@ import src.rss as rss
 
 print("> Generating site")
 
-shutil.rmtree("./output/")
-os.mkdir("./output/")
+output_path = "./output"
+
+if os.path.exists(output_path) and os.path.isdir(output_path):
+    shutil.rmtree(output_path)
+
+os.mkdir(output_path)
 
 # Helpers ======================
 
@@ -63,10 +67,10 @@ for file in page_files:
         # Write
 
         if filename == "index":
-            f = open("./output/" + filename + ".html", "w")
+            f = open(output_path + "/" + filename + ".html", "w")
         else:
-            os.mkdir("./output/" + filename)
-            f = open("./output/" + filename + "/index.html", "w")
+            os.mkdir(output_path + "/" + filename)
+            f = open(output_path + "/" + filename + "/index.html", "w")
         f.write(page_content)
         f.close()
 
@@ -75,7 +79,7 @@ print("> Generating blog posts")
 post_metas = []
 
 post_files = os.listdir("./blog/")
-os.mkdir("./output/blog/")
+os.mkdir(output_path + "/blog/")
 for file in post_files:
     if not file.endswith(".md"):
         continue
@@ -97,7 +101,7 @@ for file in post_files:
         post_content = process(post_content, title=meta["title"])
 
         # Write
-        f = open("./output/blog/" + filename + ".html", "w")
+        f = open(output_path + "/blog/" + filename + ".html", "w")
         f.write(post_content)
         f.close()
 
@@ -111,23 +115,23 @@ blog_index_content = header + blog.make_blog_index(post_metas) + footer
 blog_index_content = process(blog_index_content, title="Blog")
 
 # Write
-f = open("./output/blog/index.html", "w")
+f = open(output_path + "/blog/index.html", "w")
 f.write(blog_index_content)
 f.close()
 
 print("> Copying assets")
 
-shutil.copytree("./assets", "./output/assets")
+shutil.copytree("./assets", output_path + "/assets")
 
 # Move out favicons and WOTD RSS
-shutil.copy("./output/assets/images/favicon.ico", "./output/blog/")
-shutil.move("./output/assets/images/favicon.ico", "./output/")
-shutil.move("./output/assets/wotd-feed-base.xml", "./output/wotd-feed.xml")
+shutil.copy(output_path + "/assets/images/favicon.ico", "./output/blog/")
+shutil.move(output_path + "/assets/images/favicon.ico", "./output/")
+shutil.move(output_path + "/assets/wotd-feed-base.xml", "./output/wotd-feed.xml")
 
 print("> Generating blog rss")
 
 rss_data = rss.generate_blog_rss(post_metas)
-f = open("./output/blog/feed.xml", "w")
+f = open(output_path + "/blog/feed.xml", "w")
 f.write(rss_data)
 f.close()
 
