@@ -9,6 +9,9 @@ from email import utils as email_utils
 
 from mastodon import Mastodon
 
+instance_url = "https://mastodon.social"
+account_id = 113590173980484259
+
 separator_head = "<!-- WOTD START -->"
 separator_tail = "<!-- WOTD END -->"
 
@@ -22,12 +25,12 @@ def fetch_posts(days):
 		print("ERROR: Mastodon API has maximum post fetch size of 40 (you asked for {quantity}).")
 		exit(0)
 
-	mastodon = Mastodon( api_base_url="https://botsin.space")
-	posts = mastodon.account_statuses(id=187785, limit=quantity)
+	mastodon = Mastodon( api_base_url=instance_url)
+	posts = mastodon.account_statuses(id=account_id, limit=quantity)
 	posts = sorted(posts, key=lambda x: x["created_at"])
 
 	today = date.today()
-	target_date = today - datetime.timedelta(days=days)
+	target_date = today - timedelta(days=days)
 
 	return [post for post in posts if post["created_at"].date() == target_date]
 
