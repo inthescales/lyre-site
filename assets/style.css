@@ -3,7 +3,7 @@ body {
 	background-image: radial-gradient(circle at 1px 1px, #516ad4 1px, transparent 0);
 	background-size: 16px 16px;
 	color: 031560;
-	font-size: 18;
+	font-size: 20;
 }
 
 a {
@@ -11,7 +11,7 @@ a {
 }
 
 code {
-	font-size: 16;
+	font-size: 20;
 	white-space : pre-wrap;
 }
 
@@ -22,7 +22,7 @@ code {
     margin: 48px auto 12px;
     padding: 12px 24px;
     text-align: center;
-	font-size: 20;
+	font-size: 22;
 	background-color: bdeaf6;
 	border-color: 516ad4;
 	border-width: 1;
@@ -48,6 +48,7 @@ code {
 	margin: auto;
 	padding: 12px 24px;
 	line-height: 133%;
+	font-size: 20;
 }
 
 .word-panel-title {
@@ -74,7 +75,7 @@ code {
 /* Blog Index Page */
 
 a.blog-rss {
-	font-size: 20;
+	font-size: 22;
 	line-height: 100%;
 }
 
@@ -89,7 +90,7 @@ ul.blog-index li {
 }
 
 ul.blog-index li a {
-	font-size: 20;
+	font-size: 22;
 	font-weight: bold;
 }
 
@@ -108,6 +109,8 @@ table.article-banded {
 	margin: auto;
 	border-style: none;
     border-collapse: collapse;
+    font-size: 20;
+    line-height: 150%;
 }
 
 table.article-banded tr:nth-child(odd) {
@@ -122,7 +125,6 @@ table.article-image img {
     max-width: 100%;
     max-height: 200px;
 }
-
 
 /* Excerpts */
 
