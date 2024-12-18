@@ -16,7 +16,7 @@ However, I also wanted to include common modern roots that derive from Old Engli
 
 Some words, however, didn't sit neatly as either speculative or common. How should we treat words that, though they did occur at some point in the modern era with modern spellings, are today archaic or very obscure. Should we consider words like "ween" or "blin" (both attested as late as the 1800s) to be the same as the ones that fell out of use earlier? People who aren't familiar with the word may be interested in an entry defining it, but the program isn't really producing anything new in that case, which feels unsatisfying.
 
-This led me to introduce a third category of "obscure" words — words that do appear in the modern era, and have modern forms, but which I guessed that most English speakers wouldn't be familiar with. I've configured the program so that these words _can_ appear on their own, but are found more frequently in combinations. Now though, I don't feel satisfied with this decision, and may treat them as equivalent to common roots in the future.
+This led me to introduce a third category of "obscure" words — words that do appear in the modern era, and have modern forms, but which I guessed that most English speakers wouldn't be familiar with. Currently these roots _can_ appear on their own, but are found more frequently in combinations. On reflection, I don't feel satisfied with this decision, and may treat them as equivalent to common roots in the future.
 
 ### Canonical forms
 
@@ -36,7 +36,7 @@ A few surprises came up for me related to different English dialects.
 
 ### In Old English
 
-My sources for Old English words list alternate forms for many of them. Old English had several dialects of its own, with modern standard English descending primarily from the Mercian dialect of Old English and the Midlands dialect of Middle English, spoken in the regions to the north of London. However, some of our modern words come from other dialects instead. For example, "hale" and "screed" are from a northern dialect, while "vat" and "vixen" come from the south.
+My sources for Old English words list alternate forms for many of them. Old English had different dialects of its own, with modern standard English descending primarily from the Mercian dialect of Old English and the Midlands dialect of Middle English, spoken in the regions to the north of London. However, some of our modern words come from other dialects instead. For example, "hale" and "screed" are from a northern dialect, while "vat" and "vixen" come from the south.
 
 To reflect some of this, I included alternate Old English forms in the data that are used occasionally in place of more standard ones. But a better treatment will be one that reflects the fact that the sounds of English in the different regions of the England evolved in slightly different ways, and could match sound change patterns with the word forms.
 
@@ -44,7 +44,7 @@ To reflect some of this, I included alternate Old English forms in the data that
 
 I was surprised by how often I saw that Old English words that were lost in standard English lived on much longer in regional dialects, particularly in Scotland and the north of England.
 
-I started out just by treating these cases the same as words found in the standard dialect, using canonical forms to fix their usual sound and appearance in most cases. However, I realized when I learned of the northern word "lake" (meaning "to play") that it wouldn't be so simple — the long 'a' sound in that word, and its Old English ancestor _lācian_, kept its sound in the north, but in other regions changed to a long 'o', and would more likely have produced a modern form "loke" in standard English.
+I started out just by treating these cases the same as words found in the standard dialect, using canonical forms to fix their usual sound and appearance in most cases. However, I realized when I learned of the northern word "lake" (meaning "to play") that it wouldn't be so simple — the long 'a' sound in that word, and its Old English ancestor _lācian_, kept its sound in the north, but in other regions changed to a long 'o', and would more likely have produced a modern form "loke" in standard English (as with the northern "hale" and the more common "whole").
 
 This created some uncertainty regarding whether to indicate a canonical modern form or not. In most cases, I treat the existing dialect form as canonical, but in "lake" and similar cases where I can know or guess there would be a different standard form, I let the sound change procedure determine the form.
 
@@ -54,9 +54,9 @@ Compared to the previous phases of Lyre's Dictionary, writing code to simulate e
 
 In working to make the program more accurate, I found myself reading a few academic works on the subject, leading to the first reference to [an academic paper](https://www.academia.edu/87208669/Homorganic_Cluster_Lengthening_Pre_Cluster_Shortening_and_preference_based_change_in_Early_English) in the Lyre's Dictionary codebase (while writing this post I ran across a recent paper contesting some of its assertions — that's academia I guess.). The only purpose of this citation is to remind myself what my reason was for having written the code in a certain way, but I've enjoyed engaging with academic linguistics again for the first time since college.
 
-I expect that more research could solve some of the mysteries that remain and make the program's representation of historical sound changes even more accurate. But that will have to be a project for another time.
+I expect that more research could clarify some of the remaining mysteries and make the program's representation of historical sound changes even more accurate. But that will have to be a project for another time.
 
-## Aesthetic inclination
+## Aesthetic motive
 
 While bringing linguistic rigor to the project is important to me, and while one way of looking at what Lyre's Dictionary does is to see it as only making visible potential that exists naturally within the English language, it should also be remembered that its working is at every stage given shape by my own artistic motives.
 
@@ -64,7 +64,7 @@ In this post I've already mentioned cases where I made decisions about what the 
 
 - I didn't include a canonical form for OE _morgen_, ancestor of the modern "morn" and "morrow", so that it would sometimes generate the alternative "morwen", because I liked its sound.
 - I included the unattested but conjectured Old English root _mase_ (related to "maze"), glossing it as "confusion" based on its function in the verb _amasian_ (ancestor of "amaze"), because I loved the compounds I could make it with, like "mazestruck" and "mazemonger".
-- I extended the sense of the early Latin loanword _timpana_, which dictionaries gloss with the names of medieval instruments like "timbrel" and "tabret", with the more general gloss "drum". This felt like a small reach, and it lets the produced "timpon" feel more usable as a modern word.
+- I extended the sense of the early Latin loanword _timpana_, which dictionaries gloss with the names of medieval instruments like "timbrel" and "tabret", with the more general gloss "drum", because this lets us imagine "timpon" as a modern word.
 
 I hope that Lyre's Dictionary can be something that's beautiful, aside from any ideas about historical simulation. And I can't help but reveal some part of myself in it, since it's made according to my own sense of beauty.
 
@@ -72,7 +72,7 @@ I hope that Lyre's Dictionary can be something that's beautiful, aside from any 
 
 As I've mentioned before, I'm not the first person to try deriving hypothetical modern forms from lost Old English roots. I took inspiration from works like [_Uncleftish Beholding_](https://msburkeenglish.wordpress.com/wp-content/uploads/2010/04/uncleftish-beholding-aka-atomic-theory.pdf), David Cowley's _How We'd Talk if the English Had Won in 1066_, and similar projects under the name "Anglish", which set out to create alternate versions of English using only words of Germanic origin, often using revived roots to replace the removed words from French, Latin, and other languages. While I don't agree with the nonsensical idea of "purifying" English, and the 1066 counterfactual feels rather shaky, I've always found these alternate-Englishes fascinating, both in their sounds and in their making. But while I borrowed methods from these prior works, Lyre's Dictionary has its own perspective on how to use them.
 
-First, since Lyre's Dictionary is not a restricted English but an expanded one, I'm free to use roots that some composers of such projects might reject: namely, early borrowings from other languages such as Latin and Old Norse that entered English during or before the Old English period. One everyday word of this sort of word is _cheese_, which comes from the Latin _caseus_, and which in Old English had the form _cese_ or _cyse_. An example I encountered on the way is _cælc_ (a goblet), with Lyre's modernizes as "calch", from the Latin _calix_. In Lyre's Dictionary, we can include multiple "snapshots" of any root from its lives in different times and places, both _cese_ and _caseus_, _cælc_ and _calix_, and follow from all of them to see their many possible efflorescences.
+First, since Lyre's Dictionary is not a restricted English but an expanded one, I'm free to use roots that some composers of such projects might reject: namely, early borrowings from other languages such as Latin and Old Norse that entered English during or before the Old English period. One everyday word of this sort of word is _cheese_, which comes from the Latin _caseus_, and which in Old English had the form _cese_ or _cyse_. An example I encountered on the way is _cælc_ (a goblet), which Lyre's modernizes as "calch", from the Latin _calix_. In Lyre's Dictionary, we can include multiple "snapshots" of any root from its lives in different times and places, both _cese_ and _caseus_, _cælc_ and _calix_, and trace out from all of them to see their many possible efflorescences.
 
 Second, since those trying to create all-Germanic English lexicons have a need to replace the words that were removed, when encountering words with overlapping meanings they are motivated to assign them distinct uses, rather than letting them act as synonyms. For example, they may likely assign "tungle" (from OE _tungol_) to replace "planet" (which comes from Greek) instead of using its sense as "star" (from OE _steorra_). Or they might gloss "shand" (OE _sceand_) with "disgrace" (from French) rather than with the also-Germanic "shame". For the purpose of Lyre's Dictionary synonyms still add variety to the system, and so we have no objection to glossing "tungle" as "star, or "shand" as "shame".
 
@@ -80,7 +80,7 @@ Of course, my methods have their own limitations. So far I have with a very few 
 
 ## What comes next?
 
-There are many more Old English roots that can be added, and more origin languages beyond that, but before laboring to increase the breadth of the program, I want to spend time revisiting what I've written so far — revising the data format, rearchitecting the code, maybe even a full rewrite in a programming language I feel more proficient in. A tall structure needs a strong foundation.
+There are many more Old English roots that can be added, and more origin languages beyond that, but the first thing may be to revisit some of the work I've already done — revising the data format, rearchitecting some code, maybe even a full rewrite in a programming language I feel more proficient in. A tall structure needs a strong foundation.
 
 I could use a break first though.
 
