@@ -10,6 +10,10 @@ a {
 	color: 0828b0;
 }
 
+h2 {
+	line-height: 120%;
+}
+
 code {
 	font-size: 20;
 	white-space : pre-wrap;
