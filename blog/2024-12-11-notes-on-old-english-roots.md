@@ -56,7 +56,7 @@ In working to make the program more accurate, I found myself reading a few acade
 
 I expect that more research could clarify some of the remaining mysteries and make the program's representation of historical sound changes even more accurate. But that will have to be a project for another time.
 
-## Aesthetic motive
+## Aesthetic motivation
 
 While bringing linguistic rigor to the project is important to me, and while one way of looking at what Lyre's Dictionary does is to see it as only making visible potential that exists naturally within the English language, it should also be remembered that its working is at every stage given shape by my own artistic motives.
 
@@ -70,7 +70,7 @@ I hope that Lyre's Dictionary can be something that's beautiful, aside from any 
 
 ## Comparison with other Old English root revival projects
 
-As I've mentioned before, I'm not the first person to try deriving hypothetical modern forms from lost Old English roots. I took inspiration from works like [_Uncleftish Beholding_](https://msburkeenglish.wordpress.com/wp-content/uploads/2010/04/uncleftish-beholding-aka-atomic-theory.pdf), David Cowley's _How We'd Talk if the English Had Won in 1066_, and similar projects under the name "Anglish", which set out to create alternate versions of English using only words of Germanic origin, often using revived roots to replace the removed words from French, Latin, and other languages. While I don't agree with the nonsensical idea of "purifying" English, and the 1066 counterfactual feels rather shaky, I've always found these alternate-Englishes fascinating, both in their sounds and in their making. But while I borrowed methods from these prior works, Lyre's Dictionary has its own perspective on how to use them.
+As I've mentioned before, I'm not the first person to try deriving hypothetical modern forms from lost Old English roots. I took inspiration from works like [_Uncleftish Beholding_](https://msburkeenglish.wordpress.com/wp-content/uploads/2010/04/uncleftish-beholding-aka-atomic-theory.pdf), David Cowley's _How We'd Talk if the English Had Won in 1066_, and similar projects under the name "Anglish", which set out to create alternate versions of English using only words of Germanic origin, often using revived roots to replace the removed words from French, Latin, and other languages. While I don't agree with any nonsensical idea of "purifying" English, and the 1066 counterfactual feels rather shaky, I've always found these alternate-Englishes fascinating, both in their sounds and in their making. But while I borrowed methods from these prior works, Lyre's Dictionary has its own perspective on how to use them.
 
 First, since Lyre's Dictionary is not a restricted English but an expanded one, I'm free to use roots that some composers of such projects might reject: namely, early borrowings from other languages such as Latin and Old Norse that entered English during or before the Old English period. One everyday word of this sort of word is _cheese_, which comes from the Latin _caseus_, and which in Old English had the form _cese_ or _cyse_. An example I encountered on the way is _cælc_ (a goblet), which Lyre's modernizes as "calch", from the Latin _calix_. In Lyre's Dictionary, we can include multiple "snapshots" of any root from its lives in different times and places, both _cese_ and _caseus_, _cælc_ and _calix_, and trace out from all of them to see their many possible efflorescences.
 
