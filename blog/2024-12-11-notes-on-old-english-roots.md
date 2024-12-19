@@ -4,7 +4,7 @@ description: "Process notes on recent work to generate words from Old English ro
 tags: how
 ---
 
-Earlier this year, I added a new component to the Lyre's Dictionary program that enables it to generate words [using roots that come from Old English](http://localhost:8000/blog/2024-2-18-old-english-roots.html), including both roots that still exist, as well as others that were lost to the language hundreds of years ago. Here, I want to give some insight into the process of that work: how it works, the decisions involved, things I learned, and other reflections.
+Earlier this year, I added a new component to the Lyre's Dictionary program that enables it to generate words [using roots that come from Old English](http://www.lyresdictionary.com/blog/2024-2-18-old-english-roots.html), including both roots that still exist, as well as others that were lost to the language hundreds of years ago. Here, I want to give some insight into the process of that work: how it works, the decisions involved, things I learned, and other reflections.
 
 ## Roots and their types
 
