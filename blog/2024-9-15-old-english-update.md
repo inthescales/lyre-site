@@ -5,7 +5,7 @@ description: "Feeds now include words with Old English roots"
 tags: what
 ---
 
-The Lyre's Dictionary word feeds on [Twitter](https://x.com/lyresdictionary) and [Mastodon](https://botsin.space/@lyresdictionary/)
+The Lyre's Dictionary word feeds on [Twitter](https://x.com/lyresdictionary) and [Mastodon](https://mastodon.social/@lyresdictionary/)
 now include words based on Old English roots. Some of these roots will be familiar, some are obscure, and others have long fallen
 out of use in English, but all have precedent in the Old English period (before ~1200 AD), with most being of Germanic origin.
 

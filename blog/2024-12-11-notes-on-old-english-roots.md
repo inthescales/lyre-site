@@ -4,7 +4,7 @@ description: "Process notes on recent work to generate words from Old English ro
 tags: how
 ---
 
-Earlier this year, I added a new component to the Lyre's Dictionary program that enables it to generate words [using roots that come from Old English](http://www.lyresdictionary.com/blog/2024-2-18-old-english-roots.html), including both roots that still exist, as well as others that were lost to the language hundreds of years ago. Here, I want to give some insight into the process of that work: how it works, the decisions involved, things I learned, and other reflections.
+Earlier this year, I added a new component to the Lyre's Dictionary program that enables it to generate words [using roots that come from Old English](/blog/2024-2-18-old-english-roots.html), including both roots that still exist, as well as others that were lost to the language hundreds of years ago. Here, I want to give some insight into the process of that work: how it works, the decisions involved, things I learned, and other reflections.
 
 ## Roots and their types
 
@@ -28,7 +28,7 @@ Many of the speculative words, even though they may have had distinct sounds in 
 
 ### Multiple meanings
 
-In [a previous post](http://www.lyresdictionary.com/blog/2023-2-19-constructing-the-corpus.html), I wrote about how I selected among the different possible meanings of roots. With Latin and Greek, where nearly all of the roots are found in modern words, I tended to choose whatever meaning seemed to best reflect the present-day usage of that root. But how should we gloss speculative roots, where there is no present-day usage to look to? In the Old English corpus, for speculative roots and common roots as well, I leaned strongly toward including all or most of the historical meanings, choosing randomly between them in each instance. Similar to canonical forms, I separated one principal meaning that captures the present-day usage of non-speculative roots, and set the program to use these more frequently than the alternate meanings.
+In [a previous post](/blog/2023-2-19-constructing-the-corpus.html), I wrote about how I selected among the different possible meanings of roots. With Latin and Greek, where nearly all of the roots are found in modern words, I tended to choose whatever meaning seemed to best reflect the present-day usage of that root. But how should we gloss speculative roots, where there is no present-day usage to look to? In the Old English corpus, for speculative roots and common roots as well, I leaned strongly toward including all or most of the historical meanings, choosing randomly between them in each instance. Similar to canonical forms, I separated one principal meaning that captures the present-day usage of non-speculative roots, and set the program to use these more frequently than the alternate meanings.
 
 ## Dialects
 

@@ -9,7 +9,7 @@ To compile the corpus for Lyre's Dictionary, I've used a handful of different on
 
 ## The Oxford English Dictionary
 
-[The Oxford English Dictionary](http://www.oed.com) has been an invaluable resource for this work. It has a wide breadth of contents, including uncommon and archaic words, detailed etymologies on where these words come from, and powerful search tools that can be used to discover new words and answer various questions.
+[The Oxford English Dictionary](https://www.oed.com) has been an invaluable resource for this work. It has a wide breadth of contents, including uncommon and archaic words, detailed etymologies on where these words come from, and powerful search tools that can be used to discover new words and answer various questions.
 
 The simplest way I use it is just to look up any word that comes to mind to find its etymology – I can then make a morph out of its roots, or confirm hunches about how it's put together. There are also entries for prefixes and suffixes, which have explanations on usage that can help distinguish between different meanings with the same form, or clarify changes based on context.
 
@@ -32,7 +32,7 @@ This one requires a paid subscription to use.
 
 ## Online Etymology Dictionary
 
-[Online Etymology Dictionary or Etymonline](http://www.etymonline.com) is free and easy to use, and contains similarly detailed etymologies, though it lacks some of the more complex features. I often use it for quick searches to check the etymology of a particular word or affix, or to get a second opinion on the OED. They largely tend to agree with one another, but occasionally Etymonline will have alternate explanations beyond what's in the OED, or asides that suggest new possibilities.
+[Online Etymology Dictionary or Etymonline](https://www.etymonline.com) is free and easy to use, and contains similarly detailed etymologies, though it lacks some of the more complex features. I often use it for quick searches to check the etymology of a particular word or affix, or to get a second opinion on the OED. They largely tend to agree with one another, but occasionally Etymonline will have alternate explanations beyond what's in the OED, or asides that suggest new possibilities.
 
 <table class="article-image">
     <tr>
@@ -44,7 +44,7 @@ This one requires a paid subscription to use.
 
 ## Latdict
 
-[Latdict](http://www.latin-dictionary.net), naturally, is only relevant to roots from Latin, but it's provided some necessary details, such as different forms and grammatical information for Latin words that have a bearing on their appearance or how they combine with other elements in English. I've also used it in some cases to check words' Latin meanings when I needed guidance on how to gloss morphs.
+[Latdict](https://www.latin-dictionary.net), naturally, is only relevant to roots from Latin, but it's provided some necessary details, such as different forms and grammatical information for Latin words that have a bearing on their appearance or how they combine with other elements in English. I've also used it in some cases to check words' Latin meanings when I needed guidance on how to gloss morphs.
 
 <table class="article-image">
     <tr>
