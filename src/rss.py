@@ -15,7 +15,7 @@ def generate_blog_rss(metas):
 	metas = sorted(metas, key=lambda x: (x["date"][0], x["date"][1], x["date"][2]), reverse=True)
 	for meta in metas:
 		title = meta["title"]
-		link = "http://www.lyresdictionary.com/blog/" + meta["slug"]
+		link = "http://www.lyresdictionary.com/blog/" + meta["slug"] + ".html"
 		description = meta["description"]
 		date = datetime.datetime(meta["date"][0], meta["date"][1], meta["date"][2])
 		timestamp = email_utils.format_datetime(date)
